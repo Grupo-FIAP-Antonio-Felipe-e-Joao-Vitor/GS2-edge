@@ -96,7 +96,7 @@ sudo docker-compose up -d
      - Execute o **Result of noise** para visualizar o último valor de barulho.
 
 - No **STH-Comet**:
-     - Execute o **3. Request presence** para visualizar os últimos 30 valores de presença.
+     - Execute o **Request presence** para visualizar os últimos 30 valores de presença.
      - Execute o **Request noise** para visualizar os últimos 30 valores de barulho.
 
 ---
