@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard FIWARE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center p-4">
+  <!-- Título -->
+  <h2 class="mt-8 text-xl sm:text-2xl md:text-3xl font-bold text-center uppercase tracking-wide text-blue-300">
+    Dashboard da sala
+  </h2>
+
+  <!-- Gráfico -->
+  <div class="w-full max-w-5xl bg-gray-800 p-4 mt-6 rounded-2xl shadow-lg">
+    <canvas id="grafico_ruido" class="w-full h-64 sm:h-80 md:h-96"></canvas>
+  </div>
+  <span id="texto_presenca" class="text-center font-bold text-2xl"></span>
+
+  <!-- Script JS -->
+  <script src="{{ url_for('static', filename='js/chart.js') }}"></script>
+
+</body>
+</html>
